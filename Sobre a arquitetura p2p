@@ -1,4 +1,4 @@
-#O que é?
+O que é?
 
 Um sistema peer-to-peer ou p2p, é também conhecido como sistema ponto-a-ponto. Um sistema p2p, de forma básica, possibilita a 
 transferência de qualquer dado sem a necessidade de um intermediário, a transferência de informações estará sempre ativa, pois 
@@ -14,7 +14,7 @@ Link da imagem: https://cointimes.com.br/wp-content/uploads/2018/07/p2p-torrent.
 A ilustração contida no link acima mostra a comparação entre as duas arquiteturas ditas no texto acima. Do lado esquerdo temos o exemplo 
 de uma arquitetura cliente/servidor e do lado direito o exemplo de uma arquitetura p2p.
 
-#Na arquitetura p2p existem três tipos que são:
+Na arquitetura p2p existem três tipos que são:
 
 P2P centralizada - São redes híbridas, mas também possuem servidores centrais que controlam as entradas e saídas de nós na rede, os nós 
 registram no servidor central os recursos que compartilharão na rede. As pesquisas por recursos disponíveis nos pares são executadas 
@@ -35,7 +35,7 @@ obtido a partir da interação direta entre os nós. Uma falha em um supernó po
 
 Link da imagem: *https://image.slidesharecdn.com/apresentaofinal-p2p-121101065506-phpapp02/95/p2p-sistemas-distribudos-16-638.jpg?cb=1351753132*
 
-#Alguns exemplos de sistemas que usam a arquitetura p2p
+Alguns exemplos de sistemas que usam a arquitetura p2p
 
 uTorrent (trackers) – este sistema usa da arquitetura p2p para fazer o download e upload dos arquivos na rede. O sistema pega um arquivo
 e divide ele em centenas de pacotes, estes possuem uma enumeração chamada hash que os identifica na rede. Cada computador que possui 
