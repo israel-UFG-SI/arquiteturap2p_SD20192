@@ -1,0 +1,31 @@
+O que é?
+
+Um sistema peer-to-peer ou p2p, é também conhecido como sistema ponto-a-ponto. Um sistema p2p, de forma básica, possibilita a transferência de qualquer dado sem a necessidade de um intermediário, a transferência de informações estará sempre ativa, pois possui vários nós na rede.
+Como é uma arquitetura de transferência de dados sempre a comparação com a arquitetura cliente/servidor e esta é uma grande diferença entre elas, porque a p2p não requer clientes e servidores fixos, por conta dos vários nós interligados, um nó faz ambos os papeis, requerendo e transferindo dados, isso também quer dizer que os nós não possuem funções especiais.
+Outra característica da arquitetura p2p é que ela está sobrepostas a uma rede já existente, ou seja, sua estruturação, a forma como os nós estão conectados é feito na camada de aplicação, sobre as redes físicas. 
+
+*https://cointimes.com.br/wp-content/uploads/2018/07/p2p-torrent.png*
+
+A ilustração contida no link acima mostra a comparação entre as duas arquiteturas ditas no texto acima. Do lado esquerdo temos o exemplo de uma arquitetura cliente/servidor e do lado direito o exemplo de uma arquitetura p2p.
+
+Na arquitetura p2p existem três tipos que são:
+
+P2P centralizada - São redes híbridas, mas também possuem servidores centrais que controlam as entradas e saídas de nós na rede, os nós registram no servidor central os recursos que compartilharão na rede. As pesquisas por recursos disponíveis nos pares são executadas pelo servidor central. O servidor prove banda e processamento, enquanto o acesso aos recursos é efetuado diretamente entre os pares (transferência de dados é P2P).
+
+Link da imagem: *https://www.gta.ufrj.br/ensino/eel878/redes1-2018-1/trabalhos-v1/p2p/images/centraldirectory.png*
+
+P2P pura - Uma arquitetura de rede p2p pura é completamente descentralizada e não há um elemento central, apenas uma camada de roteamento, pois todos os nós possuem papel equivalente, como visto anteriormente, o sistema de busca é por inundação (flooding). O desempenho das pesquisas é ruim devido à necessidade de se comunicar a muitos e aguardar a resposta.
+
+Link da imagem: *https://www.gta.ufrj.br/ensino/eel878/redes1-2018-1/trabalhos-v1/p2p/images/floodrequest.png*
+
+P2P híbrida - Nesse tipo de arquitetura existem alguns nós especiais, chamados de supernós, estes concedem o ingresso dos nós na rede, indexam os recursos compartilhados pelos nós e liberam a busca por estes recursos, quando localizado um determinado recurso pode ser obtido a partir da interação direta entre os nós. Uma falha em um supernó pode ser tolerada elegendo dinamicamente outro supernó.
+
+Link da imagem: *https://image.slidesharecdn.com/apresentaofinal-p2p-121101065506-phpapp02/95/p2p-sistemas-distribudos-16-638.jpg?cb=1351753132*
+
+Alguns exemplos de sistemas que usam a arquitetura p2p
+
+uTorrent (trackers) – este sistema usa da arquitetura p2p para fazer o download e upload dos arquivos na rede. O sistema pega um arquivo e divide ele em centenas de pacotes, estes possuem uma enumeração chamada hash que os identifica na rede. Cada computador que possui este sistema se torna um nó desta rede e ao solicitar o pedido de uma pacote de arquivos (filme, programas, músicas), o nó faz tanto o download do arquivo, quanto o upload para que os novos usuários possam fazer o download por meio deste nó.
+
+Criptomoeda – este sistema funciona de uma forma parecida com a do torrent. Um computador ao executa-lo começara a buscar dados na rede e minera-los e enviar para um nó central, este nó central irá validar ou não os dados que foram minerados. Cada dado minerado possui uma hash, um conjuntos destes dados ira forma uma criptomoeda.
+
+JXTA (framework) - O projeto JXTA surgiu a partir de pesquisas da Sun Microsystems com o intuito de criar soluções para problemas relacionados à computação distribuída, mais especificamente na área denominada computação peer-to-peer, e tem evoluído desde então em uma série de projetos independentes, em diversas categorias, que vão desde os componentes básicos do framework, até aplicações e serviços P2P implementados sobre este framework. O JXTA para J2ME, ou JXME, especificamente desenvolvido para plataforma J2ME é um exemplo de um destes projetos.
